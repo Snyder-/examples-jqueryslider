@@ -14,36 +14,34 @@ div#slider {
 }
 
 .slider-wrapper > a {
-  letter-spacing: -1px;
-  padding: 7px 30px;
   margin-top: 30px;
   text-decoration: none;
-  color: #666;
+  color: #000;
   position: relative;
   top: -230px;
-  border-radius: 150px;
+  border-radius: 30px;
 }
 
 .slider-wrapper > a:visited {
-  color: #666;
+  color: #000;
+}
+.slider-wrapper > a > img {
+  width: 30px;
+  height: 30px;
+  opacity: 0.2;
 }
 
 .link-hover {
-  background-color: white;
-  color: black;
-  opacity: 0.4;
-  transition: 1.2s;
 }
 
 .slider-wrapper > a.left {
   float: left;
-  left: 155px;
-  color: white;
+  left: 175px;
 }
 
 .slider-wrapper > a.right {
   float: right;
-  right: 155px;
+  right: 175px;
 }
 
 div.slider-wrapper {
