@@ -16,6 +16,12 @@ $(document).ready(function() {
     nextImage();
   })
 
+  $("#slider").hover(function(){
+    clearInterval(loop);
+  },function(){
+    startSlider();
+  })
+
   $(".slider-wrapper > a > img").hover(function() {
     $(this).animate({ opacity: 0.8}, 100);
   },
