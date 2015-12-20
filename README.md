@@ -14,7 +14,8 @@ Targets images in the wrapped in a div with an id of **slider**.
       <img id='6' src="images/img6.jpg">
       <img id='7' src="images/img7.jpg">
       <img id='8' src="images/img8.jpg">
-    </div>``` 
+    </div>
+```
 
 The slider fades images in and out after a given amount of time.
 It contains a previous and next slider.
