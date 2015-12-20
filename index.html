@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <head>
-  <title>Snyder</title>
+  <title>Slider Demo</title>
   <link rel="stylesheet" type="text/css" href="css/slider.css">
 </head>
 
 <html>
 
 <body>
-  <div class="wrapper">
+  <div class="slider-wrapper">
     <div id="slider">
       <img id='1' src="images/img1.jpg">
       <img id='2' src="images/img2.jpg">
@@ -15,9 +15,11 @@
       <img id='4' src="images/img4.jpg">
     </div> 
 
-    <a href="#" class='left'><span id="previous-image"> Previous</span></a>
-    <a href="#" class='right'><span id="next-image">Next </span></a>
+    <a id="previous-image" href="" class='left'><span><</span></a>
+    <a id="next-image" href="" class='right'><span>></span></a>
   </div>
+
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script type="text/javascript" src='js/slider.js'></script>

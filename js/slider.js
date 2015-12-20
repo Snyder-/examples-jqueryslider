@@ -6,12 +6,21 @@ $(document).ready(function() {
   $("img#1").fadeIn(500);
   startSlider()
 
-  $("#previous-image").click(function() {
+  $("#previous-image").click(function(event) {
+    event.preventDefault();
     previousImage();
   });
 
-  $("#next-image").click(function() {
+  $("#next-image").click(function(event) {
+    event.preventDefault();
     nextImage();
+  })
+
+  $(".slider-wrapper > a").hover(function() {
+    $(this).addClass("link-hover");
+  },
+  function() {
+    $(this).removeClass("link-hover");
   })
 });
 
@@ -27,7 +36,7 @@ function startSlider() {
     $('img').fadeOut(500);
     $('img#' + imgNumber).fadeIn(500);
 
-  }, 2000);
+  }, 4000);
 }
 
 function previousImage() {
