@@ -1,3 +1,5 @@
+/* CSS for Slider */
+
 div#slider {
   width: 500px;
   height: 300px;
@@ -31,9 +33,6 @@ div#slider {
   opacity: 0.2;
 }
 
-.link-hover {
-}
-
 .slider-wrapper > a.left {
   float: left;
   left: 175px;
@@ -49,3 +48,5 @@ div.slider-wrapper {
   margin: 0 auto;
   width: 840px;
 }
+
+/* End CSS for Slider */
