@@ -7,7 +7,7 @@ $(document).ready(function() {
   startSlider()
 
   $("#previous-image").click(function(event) {
-    event.preventDefault();
+    event.preventDefault();  // stop page from reloading to top
     previousImage();
   });
 
@@ -31,7 +31,6 @@ $(document).ready(function() {
 });
 
 function startSlider() {
-
   loop = setInterval( function() {
     if (imgNumber >= imgCount) {
       imgNumber = 1;
@@ -41,7 +40,7 @@ function startSlider() {
 
     slide();
 
-  }, 4000);
+  }, 4000);  // Set time on each slide in millseconds.
 }
 
 function previousImage() {
