@@ -4,7 +4,8 @@ A minimalist image slider leveraging jQuery.
 
 Targets images in the wrapped in a div with an id of **slider**.
 
- ```<div id="slider">
+ ```html
+    <div id="slider">
       <img id='1' src="images/img1.jpg">
       <img id='2' src="images/img2.jpg">
       <img id='3' src="images/img3.jpg">
